@@ -1,0 +1,44 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.list1 li:first-child {
+    color: blue;
+}
+
+.list2 li:last-child {
+    background-color: burlywood;
+    font-style: italic;
+}
+
+.list3 li:nth-child(even) {
+    font-size: 30px;
+    color: cornflowerblue;
+}
+
+.list4 li:nth-child(odd) {
+    font-size: 50px;
+    font-weight: bold;
+    color: darkgrey;
+}
+
+.list5 li:nth-child(9) {
+    color: rgb(11, 52, 141);
+    border: solid 5px;
+    border-color: chartreuse;
+}
+
+.list6 li:nth-child(3n+2) {
+    font-size: 50px;
+}
+
+li:only-child {
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+}
