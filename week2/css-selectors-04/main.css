@@ -1,0 +1,25 @@
+body {
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+/* div + p (only 22) */
+div + p {
+    color: rgb(238, 130, 130);
+    font-family: cursive;
+}
+
+/* div ~ p (22-26) */
+div ~ p {
+    text-decoration: underline;
+}
+
+/* div > p (12-16 ; 20,21) */
+div > p {
+    border: solid red;
+}
+
+/* div p (12-21) */
+div p {
+    background-color: rgba(46, 139, 86, 0.26);
+}
