@@ -1,0 +1,24 @@
+h1 {
+    color: red;
+    text-align:center;
+}
+
+body {
+    margin: 2rem;
+}
+
+div {
+    margin-top: 4rem;
+    width: 40%;
+}
+
+div:first-letter {
+    font-family: unset;
+    font-size: 2rem;
+    line-height: .5;
+}
+
+div:first-line {
+    background-color: rgba(226, 226, 226, 0.733);
+    font-weight: 600;
+}
