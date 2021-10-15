@@ -1,0 +1,93 @@
+/* This selector changes whole page background color 
+Selector Specificity: (0, 0, 2)
+*/
+html > body {
+    background-color: powderblue;
+    font-family: cursive;
+    height: 80rem;
+}
+
+/* Selector Specificity: (0, 0, 1) */
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(223, 219, 208);
+    margin-bottom: 3rem;
+    margin-left: 4.5rem;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    width: 90%;
+    height: 4rem;
+    border: solid lawngreen;
+    background-color: rgb(80, 129, 123);
+    border-radius: 2rem;
+}
+
+/* Selector Specificity: (0, 0, 1) */
+div {
+    margin-left: 8rem;
+    width: 30%;
+    height: 29rem;
+    border: double red 5px;
+    padding: 0 1.5rem 2rem 1.5rem;
+    text-align: left;
+    color: rgb(28, 12, 117);
+    font-size: 16px;
+    margin-bottom: 20rem;
+    font-family: cursive;
+    border-radius: 1rem;
+}
+
+/* Selector Specificity: (0, 0, 3) */
+div > p::first-letter{
+    font-style: bold;
+    font-size: 2rem;
+}
+
+/* Selector Specificity: (0, 0, 1) */
+h3  {
+    color: white;
+}
+
+/* Selector Specificity: (1, 0, 1) */
+div ~ #lectures {
+    position: relative; left: 35rem; bottom: 51.7rem;
+    border: double yellow 5px;
+}
+
+/* Selector Specificity: (1, 0, 1) */
+#lectures + div {
+    position: relative; bottom: 69rem;
+    border: double teal 5px;
+}
+
+/* Selector Specificity: (1, 0, 2) */
+#lectures + div > div {
+    position: relative; left: 25rem; bottom: 32.5rem;
+    border: double navy 5px;
+    padding: 0 1.5rem 2rem 1.5rem;
+    font-size: 16px;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+/* Selector Specificity: (0, 1, 0) */
+.meaningoflife {
+    color: orangered
+}
+
+/* Selector Specificity: (0, 1, 0) */
+.meaningoflife1 {
+    color: black
+}
+
+/* Selector Specificity: (0, 1, 0) */
+.meaningoflife2 {
+    color: deeppink
+}
+
+/* Selector Specificity: (0, 0, 3) */
+body > div > p {
+    color: chocolate;
+}
+
