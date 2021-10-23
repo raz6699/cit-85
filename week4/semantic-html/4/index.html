@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Semantic HTML (4)</title>
+  </head>
+  <body>
+    <header>Header</header>
+    <nav>
+      <header>Header nested in nav</header>
+    </nav>
+    <article>
+      <header>
+        Header nested in article
+        <section>Section 1 in header thats in article</section>
+        <section>Section 2 in header thats in article</section>
+      </header>
+      <footer>Footer nested in article</footer>
+    </article>
+    <aside>
+      <section>Section 1 nested in aside</section>
+      <section>Section 2 nested in aside</section>
+      <section>Section 3 nested in aside</section>
+    </aside>
+    <footer>
+      used emmet
+      header+nav>header^article>header>section*2^footer^aside>section*3^footer
+    </footer>
+  </body>
+</html>
