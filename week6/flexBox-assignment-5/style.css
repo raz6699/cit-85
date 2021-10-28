@@ -1,0 +1,19 @@
+.c1 {
+    color: white;
+     background-color: #003476;
+}
+
+.c2 {
+    color: white;
+    background-color: #0062d2;
+}
+
+.c3 {
+    color: white;
+    background-color: #b4d2f7;
+}
+
+.c4 {
+    border: 2px solid red;
+    box-sizing: border-box;
+}
