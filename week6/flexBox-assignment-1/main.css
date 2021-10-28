@@ -1,0 +1,27 @@
+html {
+    border: 3px solid red;
+    height: 800px;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+div {
+    width: 150px;
+    height: 75px;
+    background-color: #ff6c33;
+    border: 1px solid black;
+    margin: 4px;
+    text-align: center;
+    flex-grow: 1;
+    align-content: flex-start;
+    box-sizing:border-box;
+}
+
+#box20 {
+    flex-grow: 2;
+}
