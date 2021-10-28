@@ -1,0 +1,41 @@
+html, body, div {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+    padding: 0;
+    border: 5px solid red;
+    margin: 0 auto;
+}
+
+.color1, .color2, .color3, .color4, .color5 {
+    min-height: 150px;
+}
+
+.color1 {
+    background-color: #204191;
+    width: 60%;
+}
+
+.color2 {
+    background-color: #0071c8;
+    width: 40%;
+}
+
+.color3 {
+    background-color: #a1d0f7;
+    width: 33.33%;
+}
+
+.color4 {
+    background-color: #c5f1ff;
+    width: 33.33%;
+}
+
+.color5 {
+    background-color: #d9f3fa;
+    width: 33.33%;
+}
