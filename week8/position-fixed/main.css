@@ -1,0 +1,23 @@
+div {
+    border-radius: 5px;
+    color: white;
+    font-size: 2rem;
+    box-sizing:border-box;
+}
+
+#one  {
+    height: 2500px;
+    width: 60%;
+    background-color: purple;
+    border: 6px groove gold;
+}
+
+#two {
+    position:fixed;
+    bottom: 20px;
+    left:30%;
+    height: 75px;
+    width: 30%;
+    background-color:rgba(2, 2, 2, 0);
+    border: 6px groove tan;
+}
