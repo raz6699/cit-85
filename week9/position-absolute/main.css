@@ -1,0 +1,33 @@
+html {
+    border: 3px solid red;
+    box-sizing:border-box;
+}
+
+body {
+    width: 90%;
+    border: 3px solid black;
+}
+
+div {
+    border: 3px solid blue;
+    color: mediumblue;
+
+}
+
+#one  {
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background-color: darkgrey;
+}
+
+
+#two {
+    position: absolute;
+    top: 200px;
+    right: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: turquoise;
+    border: 6px groove coral;
+}
