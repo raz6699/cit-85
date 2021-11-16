@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    position: relative;
+    font-family: "Raleway", sans-serif;
+  }
+
+  div {
+    box-sizing: border-box;
+  }
+
+  header {
+    position: fixed;
+    background: url("img/backgroundimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 70px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    z-index: 200;
+    box-shadow: 0 10px 15px #fff;
+  }
+
+  header .headerTitle {
+    text-shadow: 0 0 10px #aaa;
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  body .container {
+    padding: 85px 10px 75px 10px;
+    width: 80%;
+  }
+
+  body .container .anchor {
+    display: block;
+    height: 85px;
+    margin-top: -85px;
+    visibility: hidden;
+  }
+
+  .bookmarks {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+
+  .bookmarks > a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    min-width: 30px;
+    width: 120px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #444;
+    color: #444;
+    font-size: 16px;
+  }
+  .bookmarks > a:hover {
+    text-shadow: 0 0 3px #333;
+    color: #000;
+    box-shadow: 0 0 3px #333;
+    border: 1px solid #000;
+  }
+
+  body .container section {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .container .club {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 280px;
+    height: 60px;
+    box-shadow: 5px 5px 10px #333;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    margin: 10px;
+  }
+
+  .club img {
+    margin-right: 10px;
+  }
+
+  .sectionNav {
+    margin-top: 20px;
+  }
+  .sectionNav > span {
+    margin-right: 10px;
+  }
+  .sectionNav > a {
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    color: #444;
+    font-size: 16px;
+  }
+  .sectionNav > a:hover {
+    color: #000;
+    text-shadow: 0 0 2px #444;
+  }
+
+  footer {
+    width: 100%;
+    height: 60px;
+    background-color: #273653;
+    position: fixed;
+    bottom: 0;
+    z-index: 200;
+    color: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    padding: 0 10px;
+    box-shadow: 0 -10px 15px #fff;
+  }
+
+  .homepagestyle {
+    padding: 1vw;
+    background: transparent;
+    color: #aaa;
+    font-weight: bold;
+    font-size: 1.7vw;
+    text-decoration: none;
+  }
+  .homepagestyle:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #aaa;
+    text-decoration: none;
+  }
