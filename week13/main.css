@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+  }
+
+  .pageStatus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 150%;
+    background-color: whitesmoke;
+    opacity: 0.5;
+    z-index: 200;
+  }
+
+  .fawesomeIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 150%;
+    background: transparent;
+    opacity: 1;
+    z-index: 220;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20vw;
+  }
+
+  .content {
+    margin: auto;
+    width: 80%;
+  }
